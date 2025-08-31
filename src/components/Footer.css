@@ -1,0 +1,78 @@
+.footer {
+  position: relative;
+  background: url("/images/bg-footer.png") center center no-repeat;
+  background-size: cover;
+  background-color: #b71c1c;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.6;
+  padding: 20px 40px 40px; /* thêm padding dưới để tránh đè nội dung */
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 360px; /* hoặc chỉnh theo chiều cao mày muốn */
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-menu {
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  font-weight: bold;
+}
+.footer-menu a {
+  color: #fff;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  transition: background 0.3s;
+  color: #bb0b0b; 
+}
+
+.footer-menu a:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  text-decoration: none;
+}
+.footer-main {
+  margin-bottom:-30px;
+}
+
+.footer-bottom {
+  position: relative;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-top: 1px solid #fff;
+  font-style: italic;
+  background-color: rgba(183, 28, 28, 0.8); /* làm mờ nền đỏ dưới */
+  text-align: center;
+}
+
+.footer-title {
+  color: #bb0b0b;
+}
+
+.footer-info {
+  color: black;
+}
+
+.footer-info a {
+  color: black;
+  text-decoration: underline;
+}

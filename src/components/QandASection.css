@@ -1,0 +1,156 @@
+.qanda-section {
+  margin-top: 40px;
+  padding-top: 10px;
+  border-top: 3px solid #b10000;
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #b10000;
+  margin-bottom: 12px;
+}
+
+/* Form gửi câu hỏi */
+.question-form {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  border: 1px solid #e0e0e0;
+}
+
+.question-form h3 {
+  margin: 0 0 15px 0;
+  color: #b10000;
+  font-size: 16px;
+}
+
+.question-input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  font-family: inherit;
+  resize: vertical;
+  margin-bottom: 10px;
+}
+
+.question-input:focus {
+  outline: none;
+  border-color: #b10000;
+  box-shadow: 0 0 0 2px rgba(177, 0, 0, 0.1);
+}
+
+.submit-question-btn {
+  background-color: #b10000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.submit-question-btn:hover:not(:disabled) {
+  background-color: #900000;
+}
+
+.submit-question-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.message {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.message.success {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+.message.error {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
+
+/* Danh sách Q&A */
+.qanda-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.qanda-item {
+  background-color: #f0f0f0;
+  padding: 12px 16px;
+  border-radius: 4px;
+  border-left: 4px solid #b10000;
+}
+
+.question-header {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.question-header strong {
+  color: #b10000;
+}
+
+.questioner {
+  color: #666;
+  font-style: italic;
+}
+
+.question-content {
+  margin: 8px 0;
+  font-size: 14px;
+  color: #333;
+  background: white;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.question,
+.answer {
+  margin: 4px 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.question strong {
+  color: #b10000;
+}
+
+.answer strong {
+  color: #007200;
+}
+
+.date {
+  color: #666;
+  font-style: italic;
+  display: block;
+  margin-top: 8px;
+}
+
+.loading,
+.no-questions {
+  text-align: center;
+  padding: 40px 20px;
+  color: #666;
+}
+
+.no-questions p {
+  font-size: 16px;
+}

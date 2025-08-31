@@ -1,0 +1,49 @@
+/* Sidebar.css */
+.sidebar {
+  flex: 1;
+  padding-left: 20px;
+}
+
+.box {
+  margin-bottom: 20px;
+  background: #f8f8f8;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.box.image-only {
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+.box h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #b10000;
+}
+
+.box img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.box ul {
+  padding-left: 20px;
+  font-size: 14px;
+}
+
+.box ul li {
+  list-style: disc;
+  margin-bottom: 6px;
+}
+
+.box ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.box ul li a:hover {
+  text-decoration: underline;
+}

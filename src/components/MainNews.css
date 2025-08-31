@@ -1,0 +1,59 @@
+.main-news {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.main-news img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 6px;
+  display: block;
+}
+
+.news-content {
+  flex: 1;
+  text-align: left;
+  position: relative;
+}
+
+.news-content h2 {
+  color: #b10000;
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.news-content p {
+  font-size: 14px;
+  color: #333;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+/* Article rotation indicators */
+.article-indicators {
+  display: flex;
+  gap: 6px;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.indicator-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #ccc;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.indicator-dot:hover {
+  background-color: #999;
+}
+
+.indicator-dot.active {
+  background-color: #b10000;
+  transform: scale(1.2);
+}

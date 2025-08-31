@@ -1,0 +1,128 @@
+/* Reset mặc định của danh sách */
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #c8102e; /* đỏ đậm */
+  color: white;
+  font-family: Arial, sans-serif;
+  padding: 0 20px;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0;
+}
+
+.menu-item {
+  position: relative;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  white-space: nowrap;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-right: 1px solid #fff;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.menu-item:last-child {
+  border-right: none;
+}
+
+.menu-item:hover > .dropdown {
+  display: block;
+  background-color: #a50e26;
+  color: black;
+}
+
+/* Nút Trang chủ đặc biệt */
+.home-button {
+  background-color: white;
+  color: #c8102e;
+  font-size: 16px;
+  font-weight: bold;
+  border-right: 1px solid #fff;
+  padding: 1rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.home-button:hover {
+  background-color: #f2f2f2;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  color: black;
+  min-width: 220px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.dropdown-item {
+  position: relative;
+  padding: 0.7rem 1rem;
+  background-color: white;
+  white-space: nowrap;
+  font-weight: normal;
+  font-size: 13px;
+}
+
+.dropdown-item:hover {
+  background-color: #f2f2f2;
+}
+
+.has-submenu > .label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.has-submenu > .label .arrow {
+  margin-left: 10px;
+  font-size: 0.8rem;
+}
+
+.has-submenu:hover > .sub-dropdown {
+  display: block;
+}
+
+.sub-dropdown {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  background-color: white;
+  color: black;
+  min-width: 220px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.15);
+  z-index: 1001;
+}
+
+.sub-dropdown li {
+  padding: 0.7rem 1rem;
+  white-space: nowrap;
+}
+
+.sub-dropdown li:hover {
+  background-color: #eaeaea;
+}
+
+.menu-item a.no-blue-link {
+  color: inherit; /* Kế thừa màu chữ từ phần tử cha (menu-item) */
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}

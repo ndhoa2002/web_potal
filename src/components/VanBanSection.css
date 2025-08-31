@@ -1,0 +1,42 @@
+.vanban-section {
+  margin-top: 40px;
+  padding-top: 10px;
+  border-top: 3px solid #b10000;
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #b10000;
+  margin-bottom: 10px;
+}
+
+.vanban-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.vanban-item {
+  background-color: #f8f8f8;
+  padding: 10px 15px;
+  border-left: 4px solid #b10000;
+}
+
+.vanban-code {
+  display: block;
+  font-weight: bold;
+  color: #444;
+  margin-bottom: 4px;
+}
+
+.vanban-item a {
+  color: #333;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.vanban-item a:hover {
+  text-decoration: underline;
+  color: #b10000;
+}

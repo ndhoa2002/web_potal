@@ -1,0 +1,18 @@
+.home-section {
+  display: flex;
+  gap: 20px;
+  background-color: #fff;
+  margin-top: 24px;
+  align-items: flex-start;
+}
+
+/* Thêm 2 dòng này để áp chiều rộng cố định */
+.main-news {
+  width: 720px; /* hoặc 60%, hoặc 700px tuỳ bạn */
+  flex-shrink: 0;
+}
+
+.sidebar {
+  width: 260px; /* hoặc 20%, hoặc tuỳ kích thước sidebar bạn muốn */
+  flex-shrink: 0;
+}

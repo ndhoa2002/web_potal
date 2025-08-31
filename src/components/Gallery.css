@@ -1,0 +1,38 @@
+.gallery-section {
+  margin-top: 40px;
+  padding-top: 10px;
+  border-top: 3px solid #b10000;
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #b10000;
+  margin-bottom: 16px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 16px;
+}
+
+.gallery-item {
+  background-color: #f8f8f8;
+  padding: 8px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.gallery-item p {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #333;
+}
