@@ -81,12 +81,6 @@ Hệ thống E-Portal là nền tảng thông tin tích hợp, cho phép:
 - MySQL 8.0+
 - Git
 
-### 1. Clone Repository
-```bash
-git clone https://github.com/ToanLee5433/FE_LTW.git
-cd FE_LTW-main/FE_LTW-main
-```
-
 ### 2. Cài đặt Frontend Dependencies
 ```bash
 npm install
